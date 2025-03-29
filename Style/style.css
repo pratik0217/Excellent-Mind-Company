@@ -1,0 +1,40 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root {
+    --bgcolor : white;
+    --textcolor : black;
+    --btn-hovercolor : #3faba5;
+    --btn-bgcolor : #3faba5;
+    --box-bgcolor : #717171;
+    --textcolor-blackbg : #ffff;
+}
+
+header {
+    height: 100vh;
+    background-image: url(/Excellent-Mind-Company/Photo\ Material/header-hero-v1.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+ul li {
+    list-style:none;
+    color: var(--textcolor-blackbg);
+}
+
+ul li img {
+    width: 200px;
+    height: auto;
+}
