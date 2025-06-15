@@ -1,16 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 :root {
-    --bgcolor : white;
-    --textcolor : black;
-    --btn-hovercolor : #3faba5;
+    --bg-color : #ffff;
+    --textcolor-black : #0000;
     --btn-bgcolor : #3faba5;
     --box-bgcolor : #717171;
-    --textcolor-blackbg : #ffff;
+    --textcolor-white : #ffff;
+    --middle-content-margin : 0 160px; 
+}
+
+#header-content {
+    margin: var(--middle-content-margin);
 }
 
 header {
@@ -26,15 +33,62 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
 ul li {
     list-style:none;
-    color: var(--textcolor-blackbg);
+    color: var(--textcolor-white);
 }
 
 ul li img {
     width: 200px;
     height: auto;
+}
+
+#info-box {
+    margin-top: 125px;
+    color: var(--textcolor-white);
+    width: 560px;
+    height: 215px;
+}
+
+#info-box h2 {
+    font-size: 56px;
+    margin: 5px 0px;
+}
+
+#info-box p {
+    font-size: 20px;
+    width: 480px;
+    height: 70px;
+}
+
+#info-box .btn {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#info-box .btn a {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--textcolor-white);
+    padding: 11px 32px;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+.btn1 a {
+    background-color: var(--btn-bgcolor);
+}
+
+.btn1 a:hover {
+    background-color: var(--bg-color);
+    color: var(--textcolor-black);
+}
+
+.btn2 a:hover {
+    background-color: var(--btn-bgcolor);
 }
