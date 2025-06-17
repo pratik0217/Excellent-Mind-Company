@@ -8,5 +8,5 @@ show the home page of this web page -
 
 Purpose :- 
 - Start with using and also explore the Tailwind CSS framework.
-- This web page bulid in React and Javascript technique.
+- This web page bulid in logically page of using Javascript technique.
 - Mainly focus on React framework and exploring multiple function of React framework.
